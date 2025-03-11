@@ -1,0 +1,193 @@
+.html{
+    scroll-behavior: smooth;
+}
+
+.body{
+    font-family: "Roboto", serif;
+    margin: 0;
+}
+
+.name{
+    font-family: 'Linux Libertine', sans-serif;                                                                                         
+}
+
+.hero
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    flex-basis: 400px;
+    background-color: pink
+}
+
+.hero-img{
+    flex-grow: 1;
+}
+
+.hero-heading{
+    flex-grow: 1;
+}
+
+#main div {
+    padding: 100px;
+}
+
+.burger-menu-btn{
+    display: none;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: yellowgreen
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color:black
+}    
+
+.nav-menu a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold
+}
+
+.site-identity{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}
+    
+.site-identity img{
+    width: 100px;
+    height: 40px;
+}
+
+.hero-heading h1{
+ font-size: 72px;
+}
+
+.hero-button button{
+    background-color: pink;
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+.menu-container-mobile{
+    display: none;
+}
+
+.hero-button button:hover{
+    background: green;
+}
+    
+.menu-btn a{
+    color: white !important;
+}
+
+.menu-btn:hover{
+    background-color: aqua;
+    border-radius: 20px;
+    transition: all;
+}
+
+.menu-btn a:hover{
+    color: black !important;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.menu-btn{
+    background-color: blue;
+    color: white !important;
+    padding: 10px 25px;
+}
+
+.small-text{
+    opacity: 0.4;
+    margin-top: 20px;
+}
+
+.nav-menu li:nth-child(1){
+    font-size: 20px;
+}
+
+img{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.section-2{
+    height: 400px;
+    width: 100%;
+    align-content: first baseline;
+}
+
+.section2-div-1{
+    display: flex ;
+}
+
+.section2-2{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.section-2{
+    height: 400px;
+    width: 100%;
+}
+
+.section2-div-1{
+    display: flex ;
+}
+
+.image-cont{
+background: #2596be;
+width: 50%;
+justify-content: center;
+align-items: center;
+padding: 20px 0;
+}
+
+.section2-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.section2-2 img{
+height: 30px;
+}
+
+.image-context{
+    width: 100px;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.wrapper{
+    padding: 0 15px;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.about content{
+    flex: 1;
+}

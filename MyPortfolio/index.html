@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+ <link rel="stylesheet" href="assets/css/style.css">
+ <link rel="stylesheet" href="assets/css/mobile.css">
+ <link rel="stylesheet" href="assets/css/tablet.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link href="https://fonts.cdnfonts.com/css/linux-libertine" rel="stylesheet">
+</head>     
+ <body> 
+
+<!-- Header -->
+    <div class="header">
+        <a href="#main-div" style="text-decoration: none;color: black;">
+    <div class="site-identity">
+    <img src="assets/images/EditechLogo.jpg.jpg" alt="Site Logo">
+    <h4>EdiTech Inc.</h4>
+    </div>
+</a>
+<div class="menu-container">
+<ul class="nav-menu">
+<li><a href="#main-div">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="#">Projects</a></li>
+<li class="sibling-4"><a href="#">Works</a></li>
+<li class="menu-btn"><a href="">Apply Now</a></li>
+    </ul>
+  </div>
+
+    <div class="burger-menu-btn">
+        <img src="assets/images/burger.png" alt="" onclick="toggleMenu()">
+    </div>
+</div>
+
+<!-- Mobile Menu -->
+<div class="menu-container-mobile">
+    <img class="close-btn" src="assets/images/close.png" alt="" onclick="toggleMenu()">
+    <ul class="nav-menu-mobile">
+    <li><a href="#main-div">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#">Projects</a></li>
+    <li class="sibling-4"><a href="#">Works</a></li>
+    <li class="menu-btn"><a href="#">Apply Now</a></li>
+        </ul>
+      </div>
+
+<!--Hero / Banner -->
+<div id="main-div" class="hero">
+    <div>
+    <img src="assets/images/EdiTech.jpg.avif" alt="hero image">
+</div>
+<div class="hero-heading">
+<h1 class="name">Editech<br>Incorporated</h1>
+    <p class="sub-heading">Now Hiring We need talented Editors to grow and make it known in the industry and grow even more.</p>
+<div class="hero-button">
+    <button class="hire-me-btn" style="margin-right: 15px;">Hire Now</button>
+    <button>Contact Me</button>
+ </div>
+</p class="small-text">What are you waiting for Apply Now!</p>
+ </div>
+</div>
+   
+
+<div class="section-2" id="about">
+    <div class="section2-div-1">
+    <div style="width: 50%;"></div>
+    <div class="image-cont">
+        <img src="assets/images/EARTH.webp" alt="">
+    </div>
+    </div>
+<div class="section2-2">
+<img src="assets/images/image3.png" alt="">
+<p style="font-size: 20px; font-weight:bold; margin: right 20px;">Create</p>
+<img src="assets/images/image4.png" alt="">
+<p style="font-size: 20px; font-weight:bold; margin: right 20px;">Tools</p>
+<img src="assets/images/image5.png" alt="">
+<p style="font-size: 20px; font-weight:bold; margin: right 20px;">HD Graphics</p>
+<img src="assets/images/image6.png" alt="">
+<p style="font-size: 20px; font-weight:bold; margin: right 20px;">Filter</p>
+</div>
+</div>
+
+<div class="section2-3"id="about me">
+</div class="image-context">
+<div class="wrapper">
+<div class="profile">
+    <img src="assets/images/image1.jpg"">
+</div>
+<div class="about content">
+    <h1>About Me</h1>
+    <p>
+        To all  personal skills, Just like any other job in any other industry, employers are looking for certain skills that demonstrate your general competence. Not only should you have great video editing skills but show attention to detail, be a self-starter, demonstrate organizational skills, problem solving and good memory. 
+    </p>
+
+</div>
+</div>
+
+<script>
+    function toggleMenu(){
+        document.querySelector(".menu-container-mobile").classList.toggle("active");
+    }
+</script>
+</body>
+
+
+</html>
